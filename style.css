@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #clock{
     /* border: 2px solid red; */
     height: 40vw;
@@ -9,7 +15,6 @@
     height: 400px;
     width: 400px;
     background: url(clock.png) no-repeat center center/cover;
-    margin: auto;
     position: relative;
 }
 #hpin{
