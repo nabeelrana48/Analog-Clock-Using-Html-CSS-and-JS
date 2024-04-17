@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#clock{
+    /* border: 2px solid red; */
+    height: 40vw;
+    width: 40vw;
+    height: 400px;
+    width: 400px;
+    background: url(clock.png) no-repeat center center/cover;
+    margin: auto;
+    position: relative;
+}
+#hpin{
+    position: absolute;
+    top: 20%;
+    left: 48.8%;
+    height: 30%;
+    width: 2%;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#mpin{
+    position: absolute;
+    top: 15%;
+    left: 48.8%;
+    height: 35%;
+    width: 2%;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#spin{
+    position: absolute;
+    top: 12%;
+    left: 49%;
+    height: 38%;
+    width: 1.5%;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 3;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
