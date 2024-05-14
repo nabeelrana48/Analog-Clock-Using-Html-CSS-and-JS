@@ -3,10 +3,10 @@
     margin: 0;
 }
 body{
-    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    height: 100vh;
+    background: black;
 }
 #clock{
     /* border: 2px solid red; */
@@ -15,6 +15,7 @@ body{
     height: 400px;
     width: 400px;
     background: url(clock.png) no-repeat center center/cover;
+    margin: auto;
     position: relative;
 }
 #hpin{
